@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas - Agencia de Viajes 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="index.html">Agencia de Viajes 2025</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+      <li class="nav-item"><a class="nav-link" href="ofertas.html">Ofertas</a></li>
+      <li class="nav-item"><a class="nav-link active" href="reservas.html">Reservas</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="text-center fade-in">
+  <h1>Reservas</h1>
+  <p>Completa el formulario para simular tu reserva de viaje.</p>
+</section>
+
+<section>
+  <div class="container fade-in">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="destination-card p-4">
+          <h5 class="text-center">Formulario de Reserva</h5>
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="destino" class="form-label">Destino:</label>
+              <select id="destino" class="form-select">
+                <option>París</option>
+                <option>Roma</option>
+                <option>Nueva York</option>
+                <option>Canarias</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="fecha" class="form-label">Fecha:</label>
+              <input type="date" id="fecha" class="form-control">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Agencia de Viajes. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
