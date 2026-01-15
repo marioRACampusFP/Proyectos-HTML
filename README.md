@@ -1,2 +1,2 @@
-# Proyectos Astro
-Repositorio para mis ejercicios y proyectos de Astro en el ciclo.
+# Proyectos Html
+Repositorio para mis ejercicios y proyectos de Html en el ciclo.
